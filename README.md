@@ -1,4 +1,6 @@
-# FM1 · SLOOP 汉化与液态金属主题
+# FM1
+
+基于 Scope 的汉化构建与液态金属主题
 
 [打开在线刷机器](https://colinxio.github.io/FM1/) · [刷机风险与恢复指南](https://colinxio.github.io/FM1/recovery.html)
 
