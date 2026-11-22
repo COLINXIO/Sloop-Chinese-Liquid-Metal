@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FM-1 虹彩金属 · 在线刷机</title>
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./installer.js"></script>
+<main>
+  <header>
+    <p class="device">M-VAVE FM-1</p>
+    <h1>虹彩金属固件</h1>
+    <p>在 Mac 或 Windows 的 Chrome、Edge 中，通过 USB 直接安装。</p>
+  </header>
+  <section aria-labelledby="install-heading">
+    <h2 id="install-heading">安装前准备</h2>
+    <p>先备份工程、用户音色和采样。给 FM-1 充足电，用数据线直连，只连接一台 FM-1，并关闭其他占用 MIDI 的程序。开始后请勿拔线、关机或让电脑休眠。</p>
+    <label><input type="checkbox" id="ready"> 我已阅读<a href="./recovery.html">刷机风险与恢复指南</a>，设备已停止播放和录音。</label>
+    <button type="button" id="install" disabled>连接并刷入</button>
+    <progress id="progress" aria-label="刷机进度" max="100" value="0" hidden></progress>
+    <p id="status" role="status" aria-live="polite">等待安装。</p>
+  </section>
+  <footer><a href="./recovery.html">刷机风险与恢复指南</a><a id="source" href="../">对应源码</a></footer>
+</main>
+</html>

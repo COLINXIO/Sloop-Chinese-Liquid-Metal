@@ -1,0 +1,22 @@
+:root { color-scheme: dark; font: 1rem/1.65 system-ui, sans-serif; background: #11171c; color: #edf4f2; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(43rem, calc(100% - 2.5rem)); margin: clamp(1.75rem, 8vw, 5rem) auto; }
+header { padding-bottom: 1.45rem; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, #6cd8bb, #ba95ef, #ed9d79) 1; }
+h1, h2, p { margin: 0; }
+h1 { font-size: clamp(2rem, 6vw, 3.65rem); line-height: 1.1; margin: .4rem 0 .85rem; letter-spacing: -.035em; }
+h2 { font-size: 1.2rem; margin-bottom: .45rem; }
+section, footer { margin-top: 1.65rem; }
+p, li { color: #c1d0cd; }
+.device { color: #88d9c5; font-size: .88rem; letter-spacing: .08em; }
+a { color: #a8e5d3; text-underline-offset: .19em; }
+label { display: block; margin: 1.05rem 0; }
+input { accent-color: #a8e5d3; }
+button { border: 0; border-radius: .35rem; background: #a8e5d3; color: #11211e; font: inherit; font-weight: 650; padding: .65rem 1rem; }
+button:disabled { opacity: .5; }
+progress { display: block; accent-color: #a8e5d3; width: 100%; margin-top: 1rem; }
+progress[hidden] { display: none; }
+#status { min-height: 1.65rem; margin-top: .7rem; }
+#status[data-error] { color: #ffb4a6; }
+footer { display: flex; flex-wrap: wrap; gap: 1.25rem; border-top: 1px solid #39474b; padding-top: .9rem; }
+li + li { margin-top: .65rem; }

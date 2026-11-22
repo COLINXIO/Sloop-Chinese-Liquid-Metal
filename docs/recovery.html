@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FM-1 刷机风险与恢复指南</title>
+<link rel="stylesheet" href="./style.css">
+<main>
+  <header><p><a href="./">返回在线刷机</a></p><h1>刷机风险与恢复</h1></header>
+  <section>
+    <h2>开始前</h2>
+    <p>本固件是基于 SLOOP 的非官方改版，只用于 M-VAVE FM-1。更新中断、设备或包不匹配都可能导致数据丢失、黑屏或无法启动。先用适配当前固件的编辑器备份工程、音色、采样和设置。备份留在电脑上，网页刷机器不会替你备份。</p>
+  </section>
+  <section>
+    <h2>按电脑识别到的状态处理</h2>
+    <ol>
+      <li><strong>还能识别到 FM-1 或本项目支持的更新模式。</strong> 等网页报告超时或断开后，再用同一条数据线重新直连，关闭其他 MIDI 程序，回到刷机页重新点击「连接并刷入」。如果是在另一个刷机器里中断的，请先回到原刷机器继续。</li>
+      <li><strong>SLOOP 黑屏，但还能进入 USB 救援。</strong> 关机，长按 <kbd>OCT−</kbd> 再开机，进入 SLOOP 的 USB 救援后重试。原厂固件的普通回退请先备份，再参考 <a href="https://github.com/isod89/sloop-fm1#going-back">SLOOP 的回退说明</a>。</li>
+      <li><strong>电脑只识别到 WL82 UBOOT1.00。</strong> 这是芯片的 ROM 恢复模式。遇到磁盘初始化或格式化提示请选择取消，再按 <a href="https://github.com/Quixotic7/MvaveFM1Unbricker/blob/main/UNBRICK-GUIDE.md">USB 恢复指南</a>识别设备并先备份。确认写入范围、校验和恢复包适配后再操作。</li>
+      <li><strong>屏幕不亮，电脑完全没有识别到 USB 设备。</strong> 先换一条确认可传数据的线和电脑 USB 口，给设备充电，再排除电源故障。仍无法识别时，可按 <a href="https://github.com/Quixotic7/MvaveFM1Unbricker/blob/main/TRANSPORTER-GUIDE.md">FM-1 Transporter 指南</a>使用 Seeed XIAO RP2040 救援。这条路径需要核对板型和接线，先完整读两遍闪存，确认一致，留存备份后再预检和写入。不要按线色猜针脚，也不要把其他设备的整片闪存写到自己的机器上。</li>
+    </ol>
+  </section>
+  <section>
+    <h2>恢复后</h2>
+    <p>恢复工具要求回读校验时，等校验完成再断线。确认设备能开机、按键能发声，再用与当前固件兼容的编辑器恢复备份。遇到硬件故障、工具拒绝写入或无法确认恢复包时，停止尝试并联系售后。</p>
+  </section>
+</main>
+</html>
