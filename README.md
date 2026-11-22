@@ -1,6 +1,6 @@
 # FME · FM-1 简体中文固件
 
-[打开在线刷机器](https://colinxio.github.io/fm1-liquid-metal/) · [刷机风险与恢复指南](https://colinxio.github.io/fm1-liquid-metal/recovery.html)
+[打开在线刷机器](https://colinxio.github.io/FME/) · [刷机风险与恢复指南](https://colinxio.github.io/FME/recovery.html)
 
 FME 是基于 [SLOOP 2.8.5](https://github.com/isod89/sloop-fm1/releases/tag/v2.8.5) 的非官方简体中文构建，包含示波器修复、液态金属主题、按键和第四鼓轨的壁纸联动、呼吸灯，以及梨形开机动画。刷机主页可以直接预览背景和琴键动效。公开版不含上游保留权利的图标图集，相关界面使用文本布局。
 
