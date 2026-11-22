@@ -2,15 +2,34 @@
 <html lang="zh-CN">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FM-1 虹彩金属 · 在线刷机</title>
+<title>FME · FM-1 在线刷机</title>
 <link rel="stylesheet" href="./style.css">
 <script type="module" src="./installer.js"></script>
-<main>
+<script type="module" src="./preview.js"></script>
+<main class="fme-home">
   <header>
     <p class="device">M-VAVE FM-1</p>
-    <h1>虹彩金属固件</h1>
+    <h1>FME</h1>
+    <p>基于 SLOOP 2.8.5 的简体中文构建，搭配液态金属主题。</p>
     <p>在 Mac 或 Windows 的 Chrome、Edge 中，通过 USB 直接安装。</p>
   </header>
+  <section class="theme-preview" aria-labelledby="preview-heading">
+    <figure class="theme-frame">
+      <img src="./liquid-metal.png" width="240" height="240" alt="FME 液态金属主题，深蓝底上的青绿、珊瑚橙、紫边和银白色块">
+      <canvas width="240" height="240" role="img" aria-label="流动的液态金属壁纸及按键触发的扩散" hidden></canvas>
+    </figure>
+    <div class="theme-controls">
+      <h2 id="preview-heading">液态金属 · 琴键演示</h2>
+      <p>点击琴键，让虹彩从落点鼓起、扩散，再回落。</p>
+      <div class="preview-keys" aria-label="演示琴键">
+        <button type="button" data-note="0">C</button><button type="button" data-note="1">D</button>
+        <button type="button" data-note="2">E</button><button type="button" data-note="3">F</button>
+        <button type="button" data-note="4">G</button><button type="button" data-note="5">A</button>
+        <button type="button" data-note="6">B</button>
+      </div>
+      <button type="button" class="preview-toggle" aria-pressed="false">暂停背景</button>
+    </div>
+  </section>
   <section aria-labelledby="install-heading">
     <h2 id="install-heading">安装前准备</h2>
     <p>先备份工程、用户音色和采样。给 FM-1 充足电，用数据线直连，只连接一台 FM-1，并关闭其他占用 MIDI 的程序。开始后请勿拔线、关机或让电脑休眠。</p>

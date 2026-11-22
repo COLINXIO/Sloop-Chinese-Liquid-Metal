@@ -1,8 +1,10 @@
-# FM-1 虹彩金属固件
+# FME · FM-1 简体中文固件
 
 [打开在线刷机器](https://colinxio.github.io/fm1-liquid-metal/) · [刷机风险与恢复指南](https://colinxio.github.io/fm1-liquid-metal/recovery.html)
 
-这是基于 [SLOOP 2.8.5](https://github.com/isod89/sloop-fm1/releases/tag/v2.8.5) 的非官方简体中文改版。包含虹彩金属背景、按键和第四鼓轨的壁纸联动、呼吸灯，以及梨形开机动画。公开版不含上游保留权利的图标图集，相关界面使用文本布局。
+FME 是基于 [SLOOP 2.8.5](https://github.com/isod89/sloop-fm1/releases/tag/v2.8.5) 的非官方简体中文构建，包含示波器修复、液态金属主题、按键和第四鼓轨的壁纸联动、呼吸灯，以及梨形开机动画。刷机主页可以直接预览背景和琴键动效。公开版不含上游保留权利的图标图集，相关界面使用文本布局。
+
+![FME 液态金属壁纸预览](docs/liquid-metal.png)
 
 ## 在线安装
 
