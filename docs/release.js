@@ -6,5 +6,5 @@ export const release = Object.freeze({
   "file": "./fm1-liquid-metal.fwsc",
   "size": 610076,
   "sha256": "ce37e0cf1de238166e57a9065738ad89d4ed3688b57c1b2a4a7164f15e135aad",
-  "source": "https://github.com/COLINXIO/FM1/tree/main/firmware-source"
+  "source": "https://github.com/COLINXIO/Sloop-Chinese-Liquid-Metal/tree/main/firmware-source"
 });
